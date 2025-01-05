@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+   <special-head></special-head>
+    
+   <!-- body -->
+   <body class="main-layout position_head">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <special-header></special-header>
+
+        
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- contact section -->
+       <!-- Test -->
+       <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <div class="titlepage">
+                     <h2 class="mb-4">Contact Us</h2>
+                     <p><b>Unit K2, SIDCO, Industrial Estate, kangeyanallur, Gandhi Nagar, Katpadi, Vellore 632006</b></p>
+                     <p><i>For Further Enquiry Please drop your message below will get in touch with you shortly !</i></p>
+                  </div>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-12">
+                  <form id="request" class="main_form" onsubmit="sendToWhatsApp(); return false;">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <input class="contactus form-control" id="name" placeholder="Name" type="text" name="Name" required>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                           <input class="contactus form-control" id="phone" placeholder="Phone Number" type="text" name="Phone" required>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                           <input class="contactus form-control" id="email" placeholder="Email" type="email" name="Email" required>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                           <textarea class="contactusmess form-control" id="message" placeholder="Message" name="Message" required></textarea>
+                        </div>
+                        <div class="col-md-12 text-center mt-4">
+                           <button type="submit" class="send_btn btn btn-primary">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      
+         <!-- Google Map Section -->
+         <div class="container-fluid">
+            <div class="map_section">
+               <div id="map"></div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- WhatsApp Script -->
+      <script>
+      function sendToWhatsApp() {
+          // Get form values
+          var name = document.getElementById("name").value;
+          var phone = document.getElementById("phone").value;
+          var email = document.getElementById("email").value;
+          var message = document.getElementById("message").value;
+      
+          // Validate fields (optional but recommended)
+          if (name === "" || phone === "" || email === "" || message === "") {
+              alert("Please fill in all fields before sending.");
+              return;
+          }
+      
+          // Replace with your WhatsApp number (include country code, no spaces)
+          var whatsappNumber = "916374814875"; // Example: 91 for India
+      
+          // Format message for WhatsApp
+          var whatsappMessage = `Hello, I am *${name}*.\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`;
+      
+          // Encode message for URL
+          var encodedMessage = encodeURIComponent(whatsappMessage);
+      
+          // Open WhatsApp chat link
+          var whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+          window.open(whatsappURL, "_blank");
+      }
+      </script>
+      
+
+       <!-- Test end -->
+      
+      <!-- end contact section -->
+      <!--  footer -->
+      <special-footer></special-footer>
+
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="./headerFooterManager.js"></script> 
+
+   </body>
+</html>

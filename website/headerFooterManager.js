@@ -11,7 +11,7 @@ class SpecialHead extends HTMLElement {
       <!-- site metas -->
       <title>Vishal Sirpa Saalai</title>
       <meta name="keywords" content="Vishal Sirpa Saalai, Coimbatore, Karamadai, 9894654914">
-      <meta name="description" content="Vishal Sirpa Saalai">
+      <meta name="description" content="Vishal SirpaSaalai specializes in creating exquisite Kovil-related products, including Gold Plated Sirpam, Silver Plated Sirpam, Kovil Kalasam, Kovil Nilavu, Prabalayam, Kodi Maram, and Aaipon Silai. With decades of skilled craftsmanship, we deliver authentic temple artifacts across multiple locations. Contact us to preserve and enrich temple traditions with divine artistry. Coimbatore, Karamadai, 9894654914">
       <meta name="author" content="Marthandavarman">
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -45,7 +45,7 @@ class SpecialHeader extends HTMLElement {
                      <!-- Logo -->
                      <div class="logo">
                         <a href="index.html">
-                              <img src="./images/logo.png" style="height: 150px; width:150px;" alt="Vishal Sirpa Saalai">
+                              <img src="./images/logo.png" style="height: 120px; width:120px;" alt="Vishal Sirpa Saalai">
                         </a>
                      </div>                     
                      <!-- Company Name (Next to Logo) -->
@@ -67,9 +67,6 @@ class SpecialHeader extends HTMLElement {
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="products.html">Our Products</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="healthbenefits.html">Our CraftManship</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="aboutus.html">About Us</a>

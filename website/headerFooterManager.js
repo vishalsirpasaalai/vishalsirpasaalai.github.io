@@ -45,7 +45,7 @@ class SpecialHeader extends HTMLElement {
                      <!-- Logo -->
                      <div class="logo">
                         <a href="index.html">
-                              <img src="./images/logo.png" style="height: 150px; width:150px;" alt="Vishal Sirpa Saalai">
+                              <img src="./images/logo.png" style="height: 120px; width:120px;" alt="Vishal Sirpa Saalai">
                         </a>
                      </div>                     
                      <!-- Company Name (Next to Logo) -->
@@ -67,9 +67,6 @@ class SpecialHeader extends HTMLElement {
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="products.html">Our Products</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="healthbenefits.html">Our CraftManship</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="aboutus.html">About Us</a>

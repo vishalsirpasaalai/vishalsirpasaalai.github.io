@@ -13,6 +13,7 @@ class SpecialHead extends HTMLElement {
       <meta name="keywords" content="Vishal Sirpa Saalai, Coimbatore, Karamadai, 9894654914">
       <meta name="description" content="Vishal SirpaSaalai specializes in creating exquisite Kovil-related products, including Gold Plated Sirpam, Silver Plated Sirpam, Kovil Kalasam, Kovil Nilavu, Prabalayam, Kodi Maram, and Aaipon Silai. With decades of skilled craftsmanship, we deliver authentic temple artifacts across multiple locations. Contact us to preserve and enrich temple traditions with divine artistry. Coimbatore, Karamadai, 9894654914">
       <meta name="author" content="Marthandavarman">
+      <link rel="shortcut icon" href="images/logo.png">
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->

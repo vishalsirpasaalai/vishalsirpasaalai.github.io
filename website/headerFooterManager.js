@@ -105,7 +105,7 @@ class SpecialFooter extends HTMLElement {
                   <div class="col-md-12">
                      <ul class="location_icon">
                         <li><a href="https://maps.app.goo.gl/gh5Zeog1XcF1K6Cu7"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Karamadai</li>
-                        <li><a href="tel:+916374814875"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +91 9894654914</li>
+                        <li><a href="tel:+919894654914"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +91 9894654914</li>
                         <li><a href="mailto:marketing.vai24@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> narasimhavishal@gmail.com</li>
                      </ul>
                   </div>

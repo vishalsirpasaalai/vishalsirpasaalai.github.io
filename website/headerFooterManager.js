@@ -24,7 +24,6 @@ class SpecialHead extends HTMLElement {
       <meta name="keywords" content="Vishal Sirpa Saalai, Coimbatore, Karamadai, 9894654914">
       <meta name="description" content="Vishal SirpaSaalai specializes in creating exquisite Kovil-related products, including Gold Plated Sirpam, Silver Plated Sirpam, Kovil Kalasam, Kovil Nilavu, Prabalayam, Kodi Maram, and Aaipon Silai. With decades of skilled craftsmanship, we deliver authentic temple artifacts across multiple locations. Contact us to preserve and enrich temple traditions with divine artistry. Coimbatore, Karamadai, 9894654914">
       <meta name="author" content="Marthandavarman">
-      <link rel="shortcut icon" href="images/logo.png">
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
@@ -32,7 +31,8 @@ class SpecialHead extends HTMLElement {
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/logo.png" type="image/gif/png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+      <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -57,7 +57,7 @@ class SpecialHeader extends HTMLElement {
                      <!-- Logo -->
                      <div class="logo">
                         <a href="index.html">
-                              <img src="./images/logo.png" style="height: 120px; width:120px;" alt="Vishal Sirpa Saalai">
+                              <img src="./images/sirpasaalai_images/logo.webp" style="height: 120px; width:120px;" alt="Vishal Sirpa Saalai">
                         </a>
                      </div>                     
                      <!-- Company Name (Next to Logo) -->
@@ -127,7 +127,7 @@ class SpecialFooter extends HTMLElement {
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>© 2025 All Rights Reserved. Design by<a href="https://www.linkedin.com/in/marthandavarman-vivekanandan/"> Marthandavarman V</a></p>
+                        <p >© 2025 All Rights Reserved. Design by<a href="https://www.linkedin.com/in/marthandavarman-vivekanandan/"><span class="blu"> Marthandavarman V</span></a></p>
                      </div>
                   </div>
                </div>

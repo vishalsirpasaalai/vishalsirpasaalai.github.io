@@ -1,19 +1,7 @@
 class SpecialHead extends HTMLElement {
     connectedCallback(){
         this.innerHTML= `
-        <head>
-        <meta name="google-site-verification" content="wb24FXhCdpGpT-cHcnwNcE_DECo9UE7-8TYQ35vGRk4" />
-        <meta name="google-site-verification" content="mpxUgOb7cRLEtrTKrx2RN3qkolt1jquYVIxqpNp11X4" />
-        <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-78BDNVY2HK"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-78BDNVY2HK');
-      </script>
-        
+        <head>               
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +28,16 @@ class SpecialHead extends HTMLElement {
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
+      <meta name="google-site-verification" content="wb24FXhCdpGpT-cHcnwNcE_DECo9UE7-8TYQ35vGRk4" />
+        <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-78BDNVY2HK"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-78BDNVY2HK');
+      </script>
    </head>
 
         `

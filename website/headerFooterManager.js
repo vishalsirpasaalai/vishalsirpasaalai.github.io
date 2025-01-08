@@ -30,16 +30,15 @@ class SpecialHead extends HTMLElement {
 
       <meta name="google-site-verification" content="wb24FXhCdpGpT-cHcnwNcE_DECo9UE7-8TYQ35vGRk4" />
         <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-78BDNVY2HK"></script>
-      <script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5RM7H7452"></script>
+        <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
-          gtag('config', 'G-78BDNVY2HK');
-      </script>
-   </head>
-
+          gtag('config', 'G-L5RM7H7452');
+        </script>
+        </head>
         `
     }
 }

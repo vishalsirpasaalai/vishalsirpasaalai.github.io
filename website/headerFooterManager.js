@@ -38,6 +38,7 @@ class SpecialHead extends HTMLElement {
         
           gtag('config', 'G-L5RM7H7452');
         </script>
+        </head>
         `
     }
 }
